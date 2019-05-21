@@ -12,8 +12,9 @@ npm run dist_win 打包静态文件
 访问 http://localhost:8080/dist/view/ 即可
 
 
-地址
-访问域名
+
+
+域名部署
 http://mmall.aboyl.org
 附带了Nginx配置文件，如果要部署到自己的服务器上面可以把Nginx里面的/root/L/project地址以及域名改成自己的就好了
 进行了子域名配置，需要在nginx的conf目录下面创建一个vhost目录，然后把mmall.conf文件放入vhost中
