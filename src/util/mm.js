@@ -1,7 +1,7 @@
 // 各种工具
 //服务器地址
 var conf = {
-    serverHost: ""
+    serverHost: "http://localhost:8080/mmall/"
 };
 // 添加hogan组件用于渲染
 // var Hogan = require("hogan");

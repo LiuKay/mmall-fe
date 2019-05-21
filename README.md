@@ -1,6 +1,17 @@
 # mmall-fe
 网上商城
 
+
+若需要测试开发部署：
+修改 mm.js 中 serverHost 为你的后台项目地址，如：http://localhost:8080/mmall/
+
+npm install 安装依赖
+npm run dist_win 打包静态文件
+
+将打包好的 dist 文件夹放到 tomcat/webapps 目录下，与 mmall 后台项目同级，启动 tomcat
+访问 http://localhost:8080/dist/view/ 即可
+
+
 地址
 访问域名
 http://mmall.aboyl.org
@@ -21,7 +32,7 @@ html,css，jQuery技术
 配置了淘宝源
 
 
-生成项目的方法
+生成项目的方法:
 1、在自己的机器上安装node.js,Nginx,webpack，配置好环境变量这些
 2、创建自己的开发，生产环境文件夹，如本例子中的/root/L/developer和/root/L/project，用来存放不同的项目
 3、拉取代码，配置Nginx，可以使用或者参考仓库中的Nginx.conf
